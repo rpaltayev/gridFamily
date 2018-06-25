@@ -22,7 +22,9 @@ h1 {
     margin: 0;
     padding: 0.75em 0.25em;
     background: #2c2c2c;
-    line-height: 1.1em
+    line-height: 1.1em;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
 img {
@@ -40,7 +42,8 @@ ul {
     grid-auto-rows: 200px;
     grid-auto-flow: dense;
     grid-gap: 1em;
-    margin-right: 2em;
+    margin-left: -1em;
+    margin-right: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
     /*padding: 0;*/
@@ -113,6 +116,10 @@ li:nth-child(24) {
 }
 
 li:nth-child(23) {
+    grid-row: span 2;
+    /*grid-column: span 2;*/
+}
+li:nth-child(7) {
     grid-row: span 2;
     /*grid-column: span 2;*/
 }
